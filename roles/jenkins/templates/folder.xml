@@ -1,7 +1,6 @@
 <?xml version='1.1' encoding='UTF-8'?>
 <com.cloudbees.hudson.plugins.folder.Folder plugin="cloudbees-folder@6.800.v71307ca_b_986b">
   <description></description>
-  <displayName>{{ item }}</displayName>
   <properties/>
   <folderViews class="com.cloudbees.hudson.plugins.folder.views.DefaultFolderViewHolder">
     <views>

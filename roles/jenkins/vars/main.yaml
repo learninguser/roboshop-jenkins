@@ -1,8 +1,11 @@
 components:
-  - {name: "frontend"}
-  - {name: "catalogue"}
-  # - {name: "user"}
-  # - {name: "cart"}
-  # - {name: "shipping"}
-  # - {name: "payment"}
-  # - {name: "dispatch"}
+  - {name: "frontend", dir: "CIPipelines"}
+  - {name: "catalogue", dir: "CIPipelines"}
+  - {name: "user", dir: "CIPipelines"}
+  - {name: "cart", dir: "CIPipelines"}
+  - {name: "shipping", dir: "CIPipelines"}
+  - {name: "payment", dir: "CIPipelines"}
+  - {name: "dispatch", dir: "CIPipelines"}
+
+folders:
+  - CIPipelines

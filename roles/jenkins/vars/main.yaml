@@ -1,0 +1,8 @@
+components:
+  - {name: "frontend"}
+  - {name: "catalogue"}
+  # - {name: "user"}
+  # - {name: "cart"}
+  # - {name: "shipping"}
+  # - {name: "payment"}
+  # - {name: "dispatch"}

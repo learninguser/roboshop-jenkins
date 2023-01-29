@@ -2,6 +2,7 @@
   ansible.builtin.template:
     src: s-job.xml
     dest: /tmp/s-job.xml
+  loop: components
 
 - name: Create a jenkins job using basic authentication
   community.general.jenkins_job:

@@ -1,5 +1,5 @@
 #!/bin/bash
-ZONE_ID="Z0366464237Z7LZLZPKFA"
+ZONE_ID="Z097444713DPZHXLPARU8"
 DOMAIN="learninguser.online"
 
 for server in jenkins sonarqube; do

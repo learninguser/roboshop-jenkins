@@ -8,5 +8,5 @@
   loop: "{{ folders }}"
 
 - name: Create Jenkins job for all components
-  ansible.builtin.include_tasks: pipeline.yaml
+  ansible.builtin.include_tasks: multi-pipeline.yaml
   loop: "{{ components }}"

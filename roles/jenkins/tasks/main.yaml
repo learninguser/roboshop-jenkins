@@ -9,7 +9,7 @@
     - CI-Pipelines
 
 - name: Include Pipeline tasks
-  ansible.builtin.include_tasks: s-pipelines.yml
+  ansible.builtin.include_tasks: s-pipeline.yml
   vars:
     COMPONENT: "{{item}}"
   loop:
